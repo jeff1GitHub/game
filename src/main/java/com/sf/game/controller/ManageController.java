@@ -27,6 +27,7 @@ public class ManageController {
             }
         }
 
+
         if(gameService == null) {
             throw new GameException("游戏类型不存在");
         }
